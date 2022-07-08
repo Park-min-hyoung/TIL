@@ -27,9 +27,18 @@
 
 <!-- 문제 출처 -->
 
+> 블로그 자료
+
 - [구글, "JS 모듈 시스템과 순환 참조 문제", https://ljs0705.medium.com/js-모듈-시스템과-순환-참조-문제-a9e0c90c07e5, (2022.07.07)]
 
 [구글, "js 모듈 시스템과 순환 참조 문제", https://ljs0705.medium.com/js-모듈-시스템과-순환-참조-문제-a9e0c90c07e5, (2022.07.07)]: https://programmers.co.kr/learn/courses/30/lessons/59410
+
+> 인터넷 검색
+
+- [사이트명, "검색어", URL, (참고 날짜)
+  ex) 네이버, "허성진", https://www.naver.com, (2021.10.25)]
+
+- [사이트명, "검색어", url, (참고 날짜) ex) 네이버, "허성진", https://www.naver.com, (2021.10.25)]: https://programmers.co.kr/learn/courses/30/lessons/59410
 
 <!-- 제목 목록 -->
 
@@ -40,6 +49,8 @@
 ### `CRUD 게시판 제작`
 
 ### `코딩 테스트`
+
+### `코딩테스트: 파이썬 개념`
 
 - 파이썬 알고리즘 인터뷰 책 읽기
 - leetcode 문제 `문자열 조작` => 5. 가장 긴 팰린드롬 부분 문자열
