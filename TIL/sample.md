@@ -48,9 +48,9 @@
 
 ### `CRUD 게시판 제작`
 
-### `코딩 테스트`
-
 ### `코딩테스트: 파이썬 개념`
+
+### `코딩 테스트`
 
 - 파이썬 알고리즘 인터뷰 책 읽기
 - leetcode 문제 `문자열 조작` => 5. 가장 긴 팰린드롬 부분 문자열
@@ -67,3 +67,46 @@
 ### 출처
 
 - https://velog.io/@lucasheo/블로그-저작권과-출처-표기
+
+### `코딩테스트`
+
+> 백준 문제 `후위 표기식 2`
+
+```py
+import sys
+
+n = int(sys.stdin.readline())
+data = list(sys.stdin.readline().rstrip())
+number = list(int(sys.stdin.readline().rstrip()) for _ in range(n))
+
+stack = []
+for item in data:
+    if "A" <= item <= "Z":
+        stack.append(number[ord(item) - ord('A')])
+    else:
+        back = stack.pop()
+        front = stack.pop()
+        if item == '*':
+            stack.append(front * back)
+        elif item == '+':
+            stack.append(front + back)
+        elif item == '/':
+            stack.append(front / back)
+        else:
+            stack.append(front - back)
+print("%.2f" %stack[-1])
+```
+
+> 풀이
+
+1. 알파벳 모양의 피연산자를 숫자로 바꾸어 stack에 넣기
+   - number = [3, 5, 8]
+   - 3개의 피 연산자 값이 주어졌다면, A => 0번 index, B => 1번 index, C => 2번 index
+   - number[ord(알파벳) - ord('A')]를 이용해 index 구한 후 숫자 값을 stack에 append
+2. 연산자는 stack에서 item 2개를 꺼내어 연산 후 결과를 다시 stack append
+
+> 출처
+
+- [백준 후위 표기식2 문제 출처]
+
+[백준 후위 표기식2 문제 출처]: https://www.acmicpc.net/problem/1935
