@@ -112,5 +112,7 @@ print("%.2f" %stack[-1])
 > 출처
 
 - [백준 후위 표기식2 문제 출처]
+- [후위 표기식2 해설 출처]
 
 [백준 후위 표기식2 문제 출처]: https://www.acmicpc.net/problem/1935
+[후위 표기식2 해설 출처]: https://www.acmicpc.net/problem/1935
