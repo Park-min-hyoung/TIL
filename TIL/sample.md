@@ -66,6 +66,10 @@
 
 - 노마드 코더 React 강의 수강
 
+### `TIL 복습`
+
+- 이번주 TIL 읽기
+
 ### 출처
 
 - https://velog.io/@lucasheo/블로그-저작권과-출처-표기
