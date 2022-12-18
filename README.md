@@ -56,5 +56,5 @@
   - [5주차](https://github.com/Park-min-hyoung/TIL/blob/master/TIL/2022%EB%85%84%2011%EC%9B%94/5%EC%A3%BC%EC%B0%A8.md)
 - 2022년 12월
   - [1주차](https://github.com/Park-min-hyoung/TIL/blob/master/TIL/2022%EB%85%84%2012%EC%9B%94/1%EC%A3%BC%EC%B0%A8.md)
-  - [2주차](https://github.com/Park-min-hyoung/TIL/blob/master/TIL/2022%EB%85%84%2012%EC%9B%94/2%EC%A3%BC%EC%B0%A8.md)
-  - [3주차](https://github.com/Park-min-hyoung/TIL/blob/master/TIL/2022%EB%85%84%2012%EC%9B%94/3%EC%A3%BC%EC%B0%A8.md)
+  - [2주차](https://github.com/Park-min-hyoung/TIL/blob/main/TIL/2022%EB%85%84%2012%EC%9B%94/2%EC%A3%BC%EC%B0%A8.md)
+  - [3주차](https://github.com/Park-min-hyoung/TIL/blob/main/TIL/2022%EB%85%84%2012%EC%9B%94/3%EC%A3%BC%EC%B0%A8.md)
